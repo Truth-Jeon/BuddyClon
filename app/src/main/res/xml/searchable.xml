@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+            android:searchSuggestAuthority="com.yaming.test.actionbar"
+            android:searchSuggestSelection=" ?"
+            android:label="@string/FAQ_menu"
+            android:hint="@string/Setting_menu" >
+</searchable>

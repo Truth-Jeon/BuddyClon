@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorControlHighlight">@color/white_alpha10</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name = "Main_Title_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name = "Page_Title_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/white_alpha</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+
+    <style name = "Bt_Item_Main_Text_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textStyle">bold</item>
+        <item name = "android:textColor">@color/white</item>
+    </style>
+
+    <style name = "Bt_Item_Sub_Text_style">
+        <item name = "android:textSize">14sp</item>
+        <item name = "android:textStyle">bold</item>
+        <item name = "android:textColor">@color/white</item>
+    </style>
+
+    <style name = "device_Btn_Text_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textStyle">bold</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name = "device_Text_info_style">
+        <item name = "android:textSize">16sp</item>
+        <item name = "android:textColor">@color/color_default_text</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name = "Btn_Default_style">
+        <item name = "android:textSize">20sp</item>
+        <item name = "android:textStyle">bold</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name = "Dialog_Title_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name = "Dialog_Message_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/colorAccent</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+
+    <style name = "List_Title_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">left</item>
+    </style>
+
+    <style name = "List_Title_disabled_style">
+        <item name = "android:textSize">@dimen/default_text_size</item>
+        <item name = "android:textColor">@color/gray</item>
+        <item name = "android:gravity">left</item>
+    </style>
+
+    <style name = "List_SubTitle_style">
+        <item name = "android:textSize">@dimen/default_sub_text_size</item>
+        <item name = "android:textColor">@color/gray</item>
+        <item name = "android:gravity">left</item>
+    </style>
+
+    <style name = "Map_Title_style">
+        <item name = "android:textSize">@dimen/map_title_text_size</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name = "Map_Message_style">
+        <item name = "android:textSize">@dimen/map_message_text_size</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:gravity">left|center_vertical</item>
+        <item name = "android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <style name="CustomFullDialog" parent="Theme.MaterialComponents.Light.DialogWhenLarge">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppCompat.Dialog.Alert.NoFloating" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CustomDialogTheme_2" parent="Theme.MaterialComponents.Light.Dialog">
+    </style>
+
+</resources>

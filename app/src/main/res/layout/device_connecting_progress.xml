@@ -1,0 +1,60 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bg"
+            android:layout_gravity="center"
+            android:padding="20dp"
+    >
+
+        <!--<ProgressBar-->
+                <!--android:id="@+id/device_connect_progress"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_gravity="center_vertical" app:layout_constraintStart_toStartOf="parent"-->
+                <!--android:layout_marginStart="200dp" android:layout_marginEnd="200dp"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>-->
+
+        <ImageView
+                android:id="@+id/connect_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loading"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp" app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <TextView
+                android:id="@+id/device_connect_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="27dp"
+                android:layout_toEndOf="@id/connect_img"
+                android:layout_centerVertical="true"
+                android:text="@string/searching_device"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/connect_img"
+                app:layout_constraintVertical_bias="0.0" android:layout_marginBottom="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                style="@style/Dialog_Title_style"
+                android:layout_marginTop="@dimen/default_dialog_padding"/>
+
+
+        <!--<Space-->
+                <!--android:layout_width="250dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintVertical_bias="0.0" app:layout_constraintEnd_toEndOf="parent"-->
+                <!--android:id="@+id/space"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

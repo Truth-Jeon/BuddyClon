@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b2d33</color>
+    <color name="colorPrimaryDark">#2B2D33</color>
+    <color name="colorAccent">#FF6634</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#9a9a9a</color>
+    <color name="white_alpha">#99FFFFFF</color>
+    <color name="white_alpha10">#10FFFFFF</color>
+    <color name="color_default_text">#b3ffffff</color>
+
+    <!-- Albatoss color -->
+    <color name="color_status_bar_bg">#2B2D33</color>
+    <color name="navigation_bar_background">#347ab8</color>
+
+    <color name="color_main_bg">#2B2D33</color>
+
+    <color name="color_borders_bg">#6b6c71</color>
+
+    <color name="color_device_btn_stroke">#525458</color>
+
+
+
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:viewBindingIgnore="true"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        tools:context=".fragment.MapInfoFragment"
+        android:paddingStart="38dp"
+        android:paddingEnd="38dp"
+>
+
+    <TextView
+            android:id="@+id/map_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map_text01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"
+            style="@style/Map_Title_style"
+    />
+
+    <ImageView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/map_title_text"/>
+    <TextView
+            android:id="@+id/map_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/map_title_text"
+            app:layout_constraintBottom_toTopOf="@+id/map_text02"
+            app:layout_constraintStart_toStartOf="@+id/map_title_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="18dp"
+            style="@style/Map_Message_style"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:id="@+id/map_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/map_text01"
+            app:layout_constraintStart_toStartOf="@+id/map_text01"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/Map_Message_style"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.0"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_update"
+            android:text="@string/btn_message_mapupdate"
+            android:layout_width="281dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:cornerRadius="23dp"
+            app:backgroundTint="@color/colorAccent"
+    />
+
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_resume"
+            android:text="test update"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:minHeight="46dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            app:cornerRadius="23dp"
+            app:backgroundTint="@color/colorAccent"
+            android:visibility="invisible"
+    />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
