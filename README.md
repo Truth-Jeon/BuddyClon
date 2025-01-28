@@ -5,7 +5,7 @@
 
 # 프로젝트 개발환경
 - IDE : Android Studio
-- 개발언어 : Kotlin
+- 개발언어 : Kotlin (기존에 Java로 개발된 앱을 Kotlin으로 리팩토링 함)
 - Framework : Android
   
 # 프로그래머 정보
